@@ -1,0 +1,18 @@
+{
+	"name": "ds_dev",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secret01",
+				"secretVersion": "ac9b01d1d48c4bc4a5ee1fd9795fbd7c"
+			}
+		}
+	}
+}
