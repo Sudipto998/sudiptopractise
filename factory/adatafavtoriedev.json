@@ -1,0 +1,9 @@
+{
+	"name": "adatafavtoriedev",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3968bd9-2275-4395-a814-464f6326a8c8",
+		"tenantId": "9f5c018a-dedb-4cee-9d9f-eec8a7df63d3"
+	}
+}
